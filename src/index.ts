@@ -5,6 +5,7 @@ require('dotenv').config();
 
 const client = new Client({
   intents: ['GUILDS', 'GUILD_MESSAGES', 'MESSAGE_CONTENT'],
+  presence: { status: 'invisible' },
   checkUpdate: false,
 });
 
