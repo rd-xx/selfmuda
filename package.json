@@ -1,0 +1,34 @@
+{
+  "name": "selfmuda",
+  "version": "0.0.1",
+  "description": "Selfbot for Mudae.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-xx/selfmuda.git"
+  },
+  "author": "rdx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rd-xx/selfmuda/issues"
+  },
+  "homepage": "https://github.com/rd-xx/selfmuda#readme",
+  "dependencies": {
+    "@sapphire/framework": "^3.1.3",
+    "discord.js": "13.x",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "tsc-watch": "^5.0.3"
+  }
+}
